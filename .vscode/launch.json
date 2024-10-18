@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "_91decodeway",
+            "request": "launch",
+            "mainClass": "_91decodeway",
+            "projectName": "Java_22682842"
+        },
+        {
+            "type": "java",
+            "name": "Launch q1",
+            "request": "launch",
+            "mainClass": "q1",
+            "projectName": "Java_22682842"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackClass",
+            "request": "launch",
+            "mainClass": "New.StackClass",
+            "projectName": "Java_22682842"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "New.Palindrome",
+            "projectName": "Java_22682842"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "Java_22682842"
+        }
+    ]
+}

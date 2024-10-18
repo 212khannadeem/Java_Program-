@@ -1,0 +1,27 @@
+import java.util.*;
+import java.lang.Math;
+
+class qequation {
+
+    public static void main(String[] args) {
+   
+        Scanner s= new Scanner(System.in);
+        int degree;
+        int sum=0;
+        int cof[]=new int[20];
+        System.out.println("Enter the highest degree of your equation : ");
+        degree=s.nextInt();
+        for(int i=0;i<=degree;i++)
+        {
+            System.out.println("Enter the coefficient of "+i+" degree of x");
+            cof[i]=s.nextInt();
+        }
+        System.out.println("Enter the Value of x");
+        int x=s.nextInt();
+        for(int i=0;i<=degree;i++)
+        {
+            sum=sum+(cof[i]*Math.pow((double)x,(double)i));
+        }
+        System.out.println(sum);
+    }
+}
